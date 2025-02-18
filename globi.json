@@ -1,0 +1,34 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:///home/jorrit/proj/globi/data-new/sousa_da_silva_2025/Appen_S1_Epiphyllous_bryophyte.docx.tsv",
+    "dcterms:bibliographicCitation" : " @article{Sousa_da_Silva_2025, title={Diversity patterns and knowledge gaps of Atlantic Forest epiphyllous bryophytes: a highly neglected group}, ISSN={1095-8290}, url={http://dx.doi.org/10.1093/aob/mcaf007}, DOI={10.1093/aob/mcaf007}, journal={Annals of Botany}, publisher={Oxford University Press (OUP)}, author={Sousa da Silva, Antonia Tainara and Freitag Kramer, Jean M and Zwiener, Victor Pereira}, year={2025}, month=jan }",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "interactionTypeName": "epiphyteOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0008501",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Epiphyllous niche",
+        "titles" : "Epiphyllous niche",
+        "datatype" : "string"
+      }, {
+        "name" : "associatedTaxa",
+        "titles" : "Phorophyte",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
