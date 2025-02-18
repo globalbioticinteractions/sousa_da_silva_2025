@@ -3,5 +3,14 @@
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
 ```bibtex
- @article{Sousa_da_Silva_2025, title={Diversity patterns and knowledge gaps of Atlantic Forest epiphyllous bryophytes: a highly neglected group}, ISSN={1095-8290}, url={http://dx.doi.org/10.1093/aob/mcaf007}, DOI={10.1093/aob/mcaf007}, journal={Annals of Botany}, publisher={Oxford University Press (OUP)}, author={Sousa da Silva, Antonia Tainara and Freitag Kramer, Jean M and Zwiener, Victor Pereira}, year={2025}, month=jan }
+ @article{Sousa_da_Silva_2025,
+ title={Diversity patterns and knowledge gaps of Atlantic Forest epiphyllous bryophytes: a highly neglected group},
+ ISSN={1095-8290}, url={http://dx.doi.org/10.1093/aob/mcaf007},
+ DOI={10.1093/aob/mcaf007},
+ journal={Annals of Botany},
+ publisher={Oxford University Press (OUP)},
+ author={Sousa da Silva, Antonia Tainara and Freitag Kramer, Jean M and Zwiener, Victor Pereira},
+ year={2025},
+ month=jan
+}
 ```
